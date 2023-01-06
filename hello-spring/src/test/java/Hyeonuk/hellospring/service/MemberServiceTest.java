@@ -8,6 +8,7 @@ import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
 
 import java.util.List;
+import java.util.Optional;
 
 class MemberServiceTest {
     MemberService memberService;
@@ -69,5 +70,11 @@ class MemberServiceTest {
 
     @Test
     void findOne() {
+        Member member = new Member();
+        member.setName("JHU");
+        Long memberId = memberService.join(member);
+
+        Optional<Member> memberOne = memberService.findOne(memberId);
+        System.out.println(memberOne);
     }
 }
