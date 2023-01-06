@@ -7,6 +7,8 @@ import org.junit.jupiter.api.AfterEach;
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
 
+import java.util.List;
+
 class MemberServiceTest {
     MemberService memberService;
     MemoryMemberRepository memberRepository;
@@ -54,6 +56,15 @@ class MemberServiceTest {
 
     @Test
     void findMembers() {
+        Member member1 = new Member();
+        member1.setName("JHU");
+        Member member2 = new Member();
+        member2.setName("GSM");
+        memberService.join(member1);
+        memberService.join(member2);
+
+        List<Member> memberList = memberService.findMembers();
+        System.out.println(memberList);
     }
 
     @Test
