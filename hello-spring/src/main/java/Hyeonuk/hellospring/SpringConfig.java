@@ -1,6 +1,6 @@
 package Hyeonuk.hellospring;
 
-import Hyeonuk.hellospring.repository.JdbcMemberRepository;
+import Hyeonuk.hellospring.repository.JdbcTemplateMemberRepository;
 import Hyeonuk.hellospring.repository.MemberRepository;
 import Hyeonuk.hellospring.service.MemberService;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -25,7 +25,7 @@ public class SpringConfig {
 
     @Bean
     public MemberRepository memberRepository() {
-        return new JdbcMemberRepository(dataSource);
+        return new JdbcTemplateMemberRepository(dataSource);
     }
 
 
