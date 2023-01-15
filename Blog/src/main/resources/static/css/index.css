@@ -1,3 +1,9 @@
+@font-face {
+    font-family: 'Pretendard';
+    src: url('https://cdn.jsdelivr.net/gh/Project-Noonnu/noonfonts_2107@1.1/Pretendard-Regular.woff') format('tff');
+    font-weight: normal;
+    font-style: normal;
+}
 * {
     box-sizing: border-box;
 }
@@ -21,7 +27,7 @@ body {
     top: 369px;
     left: 100px;
     font-family: Pretendard;
-    font-weight: Thin;
+    font-weight: 100;
     font-size: 180px;
     opacity: 1;
     text-align: left;
@@ -33,7 +39,7 @@ body {
     top: 584px;
     left: 109px;
     font-family: Pretendard;
-    font-weight: Thin;
+    font-weight: 100;
     font-size: 60px;
     opacity: 1;
     text-align: left;
@@ -58,7 +64,7 @@ body {
     top: 100px;
     left: 998px;
     font-family: Pretendard;
-    font-weight: ExtraLight;
+    font-weight: 200;
     font-size: 40px;
     opacity: 1;
     text-align: left;
@@ -70,7 +76,7 @@ body {
     top: 100px;
     left: 1187px;
     font-family: Pretendard;
-    font-weight: ExtraLight;
+    font-weight: 200;
     font-size: 40px;
     opacity: 1;
     text-align: left;
@@ -97,7 +103,7 @@ body {
     top: 701px;
     left: 247px;
     font-family: Pretendard;
-    font-weight: Light;
+    font-weight: 300;
     font-size: 40px;
     opacity: 1;
     text-align: left;
