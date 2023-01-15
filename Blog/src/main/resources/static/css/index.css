@@ -1,0 +1,104 @@
+* {
+    box-sizing: border-box;
+}
+body {
+    font-size: 14px;
+}
+.container {
+    width: 100%;
+    height: 1080px;
+    background: rgba(255,255,255,1);
+    opacity: 1;
+    position: relative;
+    top: 0px;
+    left: 0px;
+    overflow: hidden;
+}
+.title {
+    width: 465px;
+    color: rgba(0,0,0,1);
+    position: absolute;
+    top: 369px;
+    left: 100px;
+    font-family: Pretendard;
+    font-weight: Thin;
+    font-size: 180px;
+    opacity: 1;
+    text-align: left;
+}
+.subTitle {
+    width: 911px;
+    color: rgba(0,0,0,0.800000011920929);
+    position: absolute;
+    top: 584px;
+    left: 109px;
+    font-family: Pretendard;
+    font-weight: Thin;
+    font-size: 60px;
+    opacity: 1;
+    text-align: left;
+}
+.logo {
+    width: 800px;
+    height: 800px;
+    background: url("static/imagesges/카메라.png");
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    opacity: 1;
+    position: absolute;
+    top: 360px;
+    left: 746px;
+    overflow: hidden;
+}
+.join {
+    width: 139px;
+    color: rgba(0,0,0,1);
+    position: absolute;
+    top: 100px;
+    left: 998px;
+    font-family: Pretendard;
+    font-weight: ExtraLight;
+    font-size: 40px;
+    opacity: 1;
+    text-align: left;
+}
+.login {
+    width: 104px;
+    color: rgba(0,0,0,1);
+    position: absolute;
+    top: 100px;
+    left: 1187px;
+    font-family: Pretendard;
+    font-weight: ExtraLight;
+    font-size: 40px;
+    opacity: 1;
+    text-align: left;
+}
+.boardButton {
+    width: 400px;
+    height: 70px;
+    background: rgba(230,149,141,1);
+    opacity: 1;
+    position: absolute;
+    top: 690px;
+    left: 109px;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    box-shadow: 5px 5px 4px rgba(0, 0, 0, 0.25);
+    overflow: hidden;
+}
+.board {
+    width: 104px;
+    color: rgba(249,249,249,1);
+    position: absolute;
+    top: 701px;
+    left: 247px;
+    font-family: Pretendard;
+    font-weight: Light;
+    font-size: 40px;
+    opacity: 1;
+    text-align: left;
+}
