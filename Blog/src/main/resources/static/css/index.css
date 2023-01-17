@@ -28,7 +28,7 @@ body {
     left: 100px;
     font-family: Pretendard;
     font-weight: 100;
-    font-size: 180px;
+    font-size: 160px;
     opacity: 1;
     text-align: left;
 }
@@ -36,11 +36,11 @@ body {
     width: 911px;
     color: rgba(0,0,0,0.800000011920929);
     position: absolute;
-    top: 530px;
+    top: 510px;
     left: 109px;
     font-family: Pretendard;
     font-weight: 100;
-    font-size: 60px;
+    font-size: 40px;
     opacity: 1;
     text-align: left;
 }
@@ -87,8 +87,8 @@ body {
     background: rgba(230,149,141,1);
     opacity: 1;
     position: absolute;
-    top: 640px;
-    left: 109px;
+    top: 600px;
+    left: 108px;
     border-top-left-radius: 20px;
     border-top-right-radius: 20px;
     border-bottom-left-radius: 20px;
@@ -100,7 +100,7 @@ body {
     width: 104px;
     color: rgba(249,249,249,1);
     position: absolute;
-    top: 651px;
+    top: 610px;
     left: 250px;
     font-family: Pretendard;
     font-weight: 300;
