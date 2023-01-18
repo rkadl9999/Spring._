@@ -9,4 +9,9 @@ public class BlogController {
     public String home() {
         return "index";
     }
+
+    @GetMapping("/join")
+    public String join() {
+        return "join";
+    }
 }
