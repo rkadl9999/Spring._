@@ -1,0 +1,153 @@
+@font-face {
+    font-family: 'Pretendard';
+    src: url('https://cdn.jsdelivr.net/gh/Project-Noonnu/noonfonts_2107@1.1/Pretendard-Regular.woff') format('tff');
+    font-weight: normal;
+    font-style: normal;
+}
+* {
+    box-sizing: border-box;
+}
+body {
+    font-size: 14px;
+}
+.container {
+    width: 100%;
+    height: 960px;
+    background: rgba(255,255,255,1);
+    opacity: 1;
+    position: relative;
+    top: 0px;
+    left: 0px;
+    overflow: hidden;
+}
+.joinForm {
+    width: 600px;
+    height: 650px;
+    background: rgba(255,255,255,1);
+    opacity: 1;
+    position: absolute;
+    top: 215px;
+    left: 660px;
+    border: 3px solid rgba(230,149,141,1);
+    border-top-left-radius: 30px;
+    border-top-right-radius: 30px;
+    border-bottom-left-radius: 30px;
+    border-bottom-right-radius: 30px;
+    overflow: hidden;
+}
+.title {
+    width: 208px;
+    color: rgba(0,0,0,1);
+    position: absolute;
+    top: 257px;
+    left: 856px;
+    font-family: Pretendard;
+    font-weight: 300;
+    font-size: 60px;
+    opacity: 1;
+    text-align: left;
+}
+.inputId {
+    width: 350px;
+    height: 50px;
+    background: rgba(217,217,217,1);
+    opacity: 1;
+    position: absolute;
+    top: 390px;
+    left: 810px;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    overflow: hidden;
+}
+.inputPwd {
+    width: 350px;
+    height: 50px;
+    background: rgba(217,217,217,1);
+    opacity: 1;
+    position: absolute;
+    top: 550px;
+    left: 810px;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    overflow: hidden;
+}
+.inputName {
+    width: 350px;
+    height: 50px;
+    background: rgba(217,217,217,1);
+    opacity: 1;
+    position: absolute;
+    top: 470px;
+    left: 810px;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    overflow: hidden;
+}
+.id {
+    width: 27px;
+    color: rgba(0,0,0,1);
+    position: absolute;
+    top: 397px;
+    left: 762px;
+    font-family: Pretendard;
+    font-weight: 100;
+    font-size: 30px;
+    opacity: 1;
+    text-align: left;
+}
+.name {
+    width: 81px;
+    color: rgba(0,0,0,1);
+    position: absolute;
+    top: 557px;
+    left: 707px;
+    font-family: Pretendard;
+    font-weight: 100;
+    font-size: 30px;
+    opacity: 1;
+    text-align: left;
+}
+.pwd {
+    width: 43px;
+    color: rgba(0,0,0,1);
+    position: absolute;
+    top: 477px;
+    left: 745px;
+    font-family: Pretendard;
+    font-weight: 100;
+    font-size: 30px;
+    opacity: 1;
+    text-align: left;
+}
+.joinButton {
+    width: 250px;
+    height: 100px;
+    background: rgba(230,149,141,1);
+    opacity: 1;
+    position: absolute;
+    top: 683px;
+    left: 835px;
+    border-top-left-radius: 30px;
+    border-top-right-radius: 30px;
+    border-bottom-left-radius: 30px;
+    border-bottom-right-radius: 30px;
+    overflow: hidden;
+}
+.join {
+    width: 89px;
+    color: rgba(255,255,255,1);
+    position: absolute;
+    top: 709px;
+    left: 915px;
+    font-family: Pretendard;
+    font-weight: 400;
+    font-size: 40px;
+    opacity: 1;
+    text-align: left;
+}
