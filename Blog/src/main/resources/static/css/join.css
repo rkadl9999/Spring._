@@ -47,48 +47,6 @@ body {
     opacity: 1;
     text-align: left;
 }
-.inputId {
-    width: 350px;
-    height: 50px;
-    background: rgba(217,217,217,1);
-    opacity: 1;
-    position: absolute;
-    top: 330px;
-    left: 710px;
-    border-top-left-radius: 20px;
-    border-top-right-radius: 20px;
-    border-bottom-left-radius: 20px;
-    border-bottom-right-radius: 20px;
-    overflow: hidden;
-}
-.inputPwd {
-    width: 350px;
-    height: 50px;
-    background: rgba(217,217,217,1);
-    opacity: 1;
-    position: absolute;
-    top: 490px;
-    left: 710px;
-    border-top-left-radius: 20px;
-    border-top-right-radius: 20px;
-    border-bottom-left-radius: 20px;
-    border-bottom-right-radius: 20px;
-    overflow: hidden;
-}
-.inputName {
-    width: 350px;
-    height: 50px;
-    background: rgba(217,217,217,1);
-    opacity: 1;
-    position: absolute;
-    top: 410px;
-    left: 710px;
-    border-top-left-radius: 20px;
-    border-top-right-radius: 20px;
-    border-bottom-left-radius: 20px;
-    border-bottom-right-radius: 20px;
-    overflow: hidden;
-}
 .id {
     width: 27px;
     color: rgba(0,0,0,1);
@@ -150,4 +108,53 @@ body {
     font-size: 40px;
     opacity: 1;
     text-align: left;
+}
+#login-form > input[name="id"]{
+    width: 350px;
+    height: 50px;
+    background: rgba(217,217,217,1);
+    opacity: 1;
+    top: 330px;
+    left: 710px;
+    position: absolute;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    overflow: hidden;
+}
+#login-form > input[name="pwd"]{
+    width: 350px;
+    height: 50px;
+    background: rgba(217,217,217,1);
+    opacity: 1;
+    top: 410px;
+    left: 710px;
+    position: absolute;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    overflow: hidden;
+}
+#login-form > input[name="name"]{
+    width: 350px;
+    height: 50px;
+    background: rgba(217,217,217,1);
+    opacity: 1;
+    top: 490px;
+    left: 710px;
+    position: absolute;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    overflow: hidden;
+}
+#login-form > input[type="text"],
+#login-form > input[type="password"]{
+    font-family: Pretendard;
+    font-weight: 100;
+    font-size: 15px;
+    padding-left: 10px;
 }
