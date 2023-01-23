@@ -83,32 +83,6 @@ body {
     opacity: 1;
     text-align: left;
 }
-.joinButton {
-    width: 250px;
-    height: 100px;
-    background: rgba(230,149,141,1);
-    opacity: 1;
-    position: absolute;
-    top: 623px;
-    left: 735px;
-    border-top-left-radius: 30px;
-    border-top-right-radius: 30px;
-    border-bottom-left-radius: 30px;
-    border-bottom-right-radius: 30px;
-    overflow: hidden;
-}
-.join {
-    width: 89px;
-    color: rgba(255,255,255,1);
-    position: absolute;
-    top: 649px;
-    left: 815px;
-    font-family: Pretendard;
-    font-weight: 400;
-    font-size: 40px;
-    opacity: 1;
-    text-align: left;
-}
 #login-form > input[name="id"]{
     width: 350px;
     height: 50px;
@@ -157,4 +131,22 @@ body {
     font-weight: 100;
     font-size: 15px;
     padding-left: 10px;
+}
+#login-form > input[type="submit"]{
+    width: 250px;
+    height: 100px;
+    background: rgba(230,149,141,1);
+    opacity: 1;
+    position: absolute;
+    top: 623px;
+    left: 735px;
+    border-top-left-radius: 30px;
+    border-top-right-radius: 30px;
+    border-bottom-left-radius: 30px;
+    border-bottom-right-radius: 30px;
+    overflow: hidden;
+    font-family: Pretendard;
+    font-weight: 400;
+    font-size: 40px;
+    color: rgba(255,255,255,1);
 }
