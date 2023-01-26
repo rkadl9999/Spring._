@@ -19,7 +19,7 @@ public class BlogController {
     }
 
     @PostMapping("/join")
-    public MemberForm signUp(@RequestBody MemberForm memberForm) {
+    public MemberForm signUp(MemberForm memberForm) {
         System.out.println(memberForm.getName());
         return memberForm;
     }
