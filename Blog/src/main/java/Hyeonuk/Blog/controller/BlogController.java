@@ -20,7 +20,6 @@ public class BlogController {
 
     @PostMapping("/join")
     public String signUp(MemberForm memberForm) {
-        System.out.println(memberForm.getName());
         return "index";
     }
 }
