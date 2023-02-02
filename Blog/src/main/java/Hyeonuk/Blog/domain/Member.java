@@ -1,6 +1,6 @@
 package Hyeonuk.Blog.domain;
 
-public class MemberForm {
+public class Member {
     private String id;
     private String pwd;
     private String name;
